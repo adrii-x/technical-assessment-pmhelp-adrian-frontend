@@ -2,6 +2,13 @@
 
 A comprehensive healthcare management system built with modern web technologies to streamline medical operations and enhance patient care.
 
+## 🌐 Live Demo
+
+**Vercel Deployment:** [https://medportal.vercel.app](https://medportal.vercel.app)
+
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](https://medportal.vercel.app)
+
+
 ## 🏥 Features
 
 ### Patient Management
@@ -176,4 +183,4 @@ For support and questions:
 
 ---
 
-Built with ❤️ for modern healthcare management
+Built By Adrian Okonkwo
