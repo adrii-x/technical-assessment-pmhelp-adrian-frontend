@@ -4,7 +4,7 @@ A comprehensive healthcare management system built with modern web technologies 
 
 ## 🌐 Live Demo
 
-**Vercel Deployment:** [https://technical-assessment-pmhelp-adrian-pi.vercel.app/login](https://technical-assessment-pmhelp-adrian-pi.vercel.app)
+**Vercel Deployment:** [https://technical-assessment-pmhelp-adrian-pi.vercel.app](https://technical-assessment-pmhelp-adrian-pi.vercel.app)
 
 [![Vercel Deployment](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](https://technical-assessment-pmhelp-adrian-pi.vercel.app)
 
