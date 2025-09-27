@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Medical Portal Design System - Professional Healthcare Theme */
+
+@layer base {
+  :root {
+    /* Medical Theme Colors */
+    --background: 210 20% 98%;
+    --foreground: 220 20% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 15%;
+
+    /* Medical Blue Primary */
+    --primary: 210 100% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 210 100% 85%;
+    --primary-dark: 210 100% 35%;
+
+    /* Professional Secondary */
+    --secondary: 210 15% 92%;
+    --secondary-foreground: 220 20% 15%;
+
+    --muted: 210 15% 95%;
+    --muted-foreground: 220 15% 45%;
+
+    /* Healthcare Accent - Soft Green */
+    --accent: 145 60% 88%;
+    --accent-foreground: 145 80% 25%;
+    --accent-bright: 145 70% 45%;
+
+    /* Medical Success/Warning/Error */
+    --success: 145 70% 45%;
+    --success-foreground: 0 0% 100%;
+    --warning: 45 100% 55%;
+    --warning-foreground: 45 100% 15%;
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 20% 88%;
+    --input: 210 20% 96%;
+    --ring: 210 100% 45%;
+
+    --radius: 0.75rem;
+
+    /* Medical Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-dark)));
+    --gradient-success: linear-gradient(135deg, hsl(var(--success)), hsl(145 70% 35%));
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%), hsl(var(--muted)));
+
+    /* Professional Shadows */
+    --shadow-soft: 0 2px 8px -2px hsl(220 20% 15% / 0.08);
+    --shadow-medium: 0 8px 25px -5px hsl(220 20% 15% / 0.12);
+    --shadow-strong: 0 20px 40px -12px hsl(220 20% 15% / 0.18);
+
+    /* Sidebar */
+    --sidebar-background: 220 25% 15%;
+    --sidebar-foreground: 210 20% 85%;
+    --sidebar-primary: 210 100% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 20% 20%;
+    --sidebar-accent-foreground: 210 20% 85%;
+    --sidebar-border: 220 20% 25%;
+    --sidebar-ring: 210 100% 45%;
+  }
+
+  .dark {
+    --background: 220 25% 8%;
+    --foreground: 210 20% 90%;
+
+    --card: 220 25% 12%;
+    --card-foreground: 210 20% 90%;
+
+    --popover: 220 25% 12%;
+    --popover-foreground: 210 20% 90%;
+
+    --primary: 210 100% 55%;
+    --primary-foreground: 220 25% 8%;
+    --primary-light: 210 100% 75%;
+    --primary-dark: 210 100% 45%;
+
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 210 20% 90%;
+
+    --muted: 220 20% 15%;
+    --muted-foreground: 210 15% 65%;
+
+    --accent: 145 50% 20%;
+    --accent-foreground: 145 60% 85%;
+    --accent-bright: 145 70% 55%;
+
+    --success: 145 70% 55%;
+    --success-foreground: 220 25% 8%;
+    --warning: 45 100% 65%;
+    --warning-foreground: 45 100% 10%;
+    --destructive: 0 85% 65%;
+    --destructive-foreground: 220 25% 8%;
+
+    --border: 220 20% 22%;
+    --input: 220 20% 18%;
+    --ring: 210 100% 55%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
+    --gradient-success: linear-gradient(135deg, hsl(var(--success)), hsl(145 70% 65%));
+    --gradient-card: linear-gradient(135deg, hsl(var(--card)), hsl(220 20% 15%));
+
+    --shadow-soft: 0 2px 8px -2px hsl(0 0% 0% / 0.3);
+    --shadow-medium: 0 8px 25px -5px hsl(0 0% 0% / 0.4);
+    --shadow-strong: 0 20px 40px -12px hsl(0 0% 0% / 0.5);
+
+    --sidebar-background: 220 30% 5%;
+    --sidebar-foreground: 210 20% 85%;
+    --sidebar-primary: 210 100% 55%;
+    --sidebar-primary-foreground: 220 30% 5%;
+    --sidebar-accent: 220 25% 12%;
+    --sidebar-accent-foreground: 210 20% 85%;
+    --sidebar-border: 220 20% 18%;
+    --sidebar-ring: 210 100% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
